@@ -1,0 +1,100 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>items</key>
+	<array>
+		<dict>
+			<key>cell</key>
+			<string>PSGroupCell</string>
+			<key>label</key>
+			<string>Tweak</string>
+		</dict>
+		<dict>
+			<key>cell</key>
+			<string>PSSwitchCell</string>
+			<key>default</key>
+			<false/>
+			<key>defaults</key>
+			<string>com.kome1.customnooldernotifications</string>
+			<key>key</key>
+			<string>enabled</string>
+			<key>label</key>
+			<string>Enabled</string>
+			<key>PostNotification</key>
+			<string>com.kome1.customnooldernotifications/ReloadPrefs</string>
+		</dict>
+		<dict>
+			<key>cell</key>
+			<string>PSGroupCell</string>
+			<key>label</key>
+			<string>Customize</string>
+		</dict>
+		<dict>
+			<key>cell</key>
+			<string>PSEditTextCell</string>
+			<key>defaults</key>
+			<string>com.kome1.customnooldernotifications</string>
+			<key>key</key>
+			<string>labeltext</string>
+			<key>placeholder</key>
+			<string>No Older Notifications</string>
+			<key>PostNotification</key>
+			<string>com.kome1.customnooldernotifications/ReloadPrefs</string>
+		</dict>
+		<dict>
+			<key>cell</key>
+			<string>PSLinkCell</string>
+			<key>cellClass</key>
+			<string>SparkColourPickerCell</string>
+			<key>libsparkcolourpicker</key>
+			<dict>
+				<key>defaults</key>
+				<string>com.kome1.customnooldernotifications</string>
+				<key>fallback</key>
+				<string>#ffffff</string>
+				<key>alpha</key>
+				<true/>
+			</dict>
+			<key>key</key>
+			<string>labelcolor</string>
+			<key>label</key>
+			<string>Label Color</string>
+			<key>PostNotification</key>
+			<string>com.kome1.customnooldernotifications/ReloadPrefs</string>
+		</dict>
+		<dict>
+			<key>cell</key>
+			<string>PSSwitchCell</string>
+			<key>default</key>
+			<false/>
+			<key>defaults</key>
+			<string>com.kome1.customnooldernotifications</string>
+			<key>key</key>
+			<string>hidelabeltext</string>
+			<key>label</key>
+			<string>Hide No Older Notifications</string>
+			<key>PostNotification</key>
+			<string>com.kome1.customnooldernotifications/ReloadPrefs</string>
+		</dict>
+		<dict>
+			<key>cell</key>
+			<string>PSButtonCell</string>
+			<key>label</key>
+			<string>Respring</string>
+			<key>action</key>
+			<string>respring</string>
+		</dict>
+		<dict>
+			<key>cell</key>
+			<string>PSGroupCell</string>
+			<key>footerAlignment</key>
+			<string>1</string>
+			<key>footerText</key>
+			<string>©kome1 2023 - CustomNoOlderNotifications</string>
+		</dict>
+	</array>
+	<key>title</key>
+	<string>CustomNoOlderNotifications</string>
+</dict>
+</plist>

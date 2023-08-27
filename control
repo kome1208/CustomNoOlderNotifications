@@ -1,0 +1,9 @@
+Package: com.kome1.customnons
+Name: CustomNoOlderNotifications
+Version: 0.0.1
+Architecture: iphoneos-arm
+Description: Customize "No Older Notifications" text
+Maintainer: kome1
+Author: kome1
+Section: Tweaks
+Depends: mobilesubstrate (>= 0.9.5000), preferenceloader, com.spark.libsparkcolourpicker
